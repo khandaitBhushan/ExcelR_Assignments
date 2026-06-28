@@ -94,3 +94,7 @@
 .signup-footer p a:hover {
   text-decoration: underline;
 }
+span{
+    color:red;
+    font-size:14px;
+}
