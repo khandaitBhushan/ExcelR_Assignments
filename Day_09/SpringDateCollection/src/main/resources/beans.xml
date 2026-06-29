@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="Student" class="org.example.Student">
+       <property name="name" value="John Deo">
+
+       </property>
+
+        <property name="skills">
+            <set>
+                <value>Java</value>
+                <value>MySql</value>
+                <value>DSA</value>
+                <value>Devops</value>
+                <value>AWS</value>
+                <value>System Design</value>
+            </set>
+        </property>
+
+        <property name="subjects">
+            <list>
+                <value>DBMS</value>
+                <value>CN</value>
+                <value>OS</value>
+                <value>OOPs</value>
+
+            </list>
+        </property>
+        <property name="scores">
+            <map>
+                <entry
+                        key="Java"
+                        value="90"/>
+
+                <entry
+                        key="Spring"
+                        value="95"/>
+
+                <entry
+                        key="SQL"
+                        value="88"/>
+            </map>
+        </property>
+    </bean>
+
+</beans>
