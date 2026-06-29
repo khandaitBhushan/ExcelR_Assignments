@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #1e293b;
+  margin-bottom: 24px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 180px;
+}
+
+button {
+  background-color: #ef4444;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #dc2626;
+}
+
+.toggle-text {
+  margin-top: 24px;
+  font-size: 1.05rem;
+  color: #475569;
+  background-color: #f8fafc;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border-left: 4px solid #ef4444;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
