@@ -21,6 +21,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+*.zip
 
 # OS metadata
 .DS_Store
